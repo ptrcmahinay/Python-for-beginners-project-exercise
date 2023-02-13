@@ -11,7 +11,7 @@
 
 This is a basic calculator program written in Python. There are two versions available:
 
-## Version 1: [Code link](projects_codes/calculator_firstversion.py)
+## Version 1: [Code link](calculator_firstversion.py)
 This version of the calculator allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, division, exponentiation, modulo, and floor division between two numbers.
 
 The user is prompted to enter the first number and then the operator to be used for the calculation, followed by the second number. The code then uses an if-elif statement to determine which operator the user has selected and performs the corresponding calculation. If an invalid operator is entered, the code will print "Invalid operator."
@@ -39,7 +39,7 @@ elif operators == "//":
 else:
     print("Invalid operator")
 ```
-## Version 2: [Code link](projects_codes/calculator_secversion.py)
+## Version 2: [Code link](calculator_secversion.py)
 This version allows also a user to perform different mathematical operations (addition, subtraction, multiplication, division, modulus, and exponentiation) on two numbers.
 
 It uses functions, loops and conditional expressions. The program runs in a while loop until the user decides to exit, and it contains error handling for invalid inputs.
