@@ -8,5 +8,5 @@
 
 ## The Code
 
-[Code link](projects_codes/rock-paper-scissor.py)
+[Code link](rock-paper-scissor.py)
 
