@@ -1,5 +1,4 @@
 # Rock Paper Scissor
-[Back to readme](readme.md)
 ## Rules: 
 - The player and computer both choose either rock, paper, or scissors
 - Rock beats scissors, scissors beat paper, and paper beats rock
