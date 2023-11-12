@@ -4,7 +4,7 @@ Hi there! This is a collection or compilation of my small, simple, and self-cont
 
 ## Project list
 ### Basic
-1. **[Guessing Game](/projects_codes/Guessing%20number%20game/guessing-game.py):**  A simple number guessing game that helps me practice working with random numbers, while loops and function. 
+1. **[Guessing Game](/projects_codes/Guessing_number_game/guessing_game.md):** 
 2. **[Calculator](/projects_codes/basic_calculator.md):** A calculator that can calculate two numbers using arithmetic operations of addition, subtraction, multiplication, division, modulus, and exponentiation. There are currently 3 version of this.
 3. **[Leap Year Checker](/projects_codes/leap-year-checker.py)**
 4. **[Prime Number Checker](/projects_codes/prime_number_checker.py)**
@@ -17,5 +17,6 @@ Hi there! This is a collection or compilation of my small, simple, and self-cont
 2. **[Hangman Game](/projects_codes/hangman/__pycache__/hangman.py)**
 3. **[Blackjack Game](/projects_codes/black-jack-game/blackjack-game.py)**
 4. **[Guessing Number Game](/projects_codes/Guessing%20number%20game/guessing_num.py)**
+5. [Dice Roll]()
 
 Visit my [REPLIT](https://replit.com/@ptrcmahinay) profile to see more codes

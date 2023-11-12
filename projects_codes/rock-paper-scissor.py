@@ -9,12 +9,10 @@ def play():
     attempts_limit = 3
 
     while player_score != score_limit and computer_score != score_limit:
-        try:
-            player = input("\nChoose a letter: \n\t'r' = rock\n\t's' = scissor \n\t'p' = paper \nEnter: ")
-            computer = random.choice(['r', 's', 'p'])
-        except ValueError:
-            print("Please enter a letter from the choices")
-        
+
+        player = input("\nChoose a letter: \n\t'r' = rock\n\t's' = scissor \n\t'p' = paper \nEnter: ")
+        computer = random.choice(['r', 's', 'p'])
+
         if player == computer:
             print("\n\nT I E\n")
             print(f"Your Score: {player_score}")
@@ -38,7 +36,7 @@ def play():
             print(f"Your Score: {player_score}")
             print(f"Opponent score:  {computer_score}")
             if computer_score == score_limit:
-                print("\n\n --------- YOU LOSE THE ROCK, PAPER AND SCISSOR ----------\n\n")
+                print("\n\n --------- YOU LOST THE ROCK, PAPER AND SCISSOR ----------\n\n")
                 if attempts <= attempts_limit:
                     play_again()
                     
@@ -48,12 +46,11 @@ def play():
         
         attempts += 1
                 
-
 def play_again():
-    user_play_again_or_not = input(print("Do you want to play again? [Y/N]: "))
-    if user_play_again_or_not == 'Y' or user_play_again_or_not == 'y':
+    user_play_again_or_not = input(print("Do you want to play again? [Y/N]: ")).lower()
+    if user_play_again_or_not == 'y':
         play()
-    elif user_play_again_or_not == 'N' or user_play_again_or_not == 'n':
+    elif user_play_again_or_not == 'n':
         print("\n THANK YOU FOR PLAYING!!")
         quit()
     else:
